@@ -11,11 +11,8 @@
 
 <body>
     <main>
+        <div class="container">
         <h1>kellagängi mängukell</h1>
-        <input id="slider1" type="range" max="360" step="any" />
-        <input id="slider2" type="range" max="360" step="any" />
-        <div id="slider1value">aaa</div>
-        <div id="slider2value">aaa</div>
         <svg width="400" height="400">
             <g transform="translate(200,200)" id="g">
                 <circle r="100" stroke="black" stroke-width="5" fill="none" />
@@ -23,12 +20,30 @@
                 <line id="line2" x2="0" y2="70" stroke="red" stroke-width="7" />
             </g>
         </svg>
+        <span>Tund</span>
+        <input id="slider2" type="range" max="360" step="any" />
+        <span class="hidden" id="hidden">Minut</span>
+        <input class="hidden" id="slider1" type="range" max="360" step="any" />
+        <div id="slider1value">00</div>
+
+        <div class="hidden" id="slider2value">00</div>
+        </div>
+        <div class="container">
+            <div class="score-container"><span id="scoreValue">0</span><span>/5</span></div>
+            <div class="time-container">
+                <span id="hour" class="time">00</span>
+                <span>:</span>
+                <span id="min" class="time">00</span>
+            </div>
+            <button id="vasta">Vasta</button>
+            <div id="msg"></div>
+        </div>
     </main>
     <script>
         const line = document.getElementById("line");
         const g = document.getElementById("g");
 
-        for (let i = 0; i < 12 + 1; i++) {
+        for (let i = 1; i < 12 + 1; i++) {
             const star = document.createElementNS(
                 "http://www.w3.org/2000/svg",
                 "text"
@@ -60,6 +75,16 @@
         const slider2value = document.getElementById("slider2value");
         const line1 = document.getElementById("line1");
         const line2 = document.getElementById("line2");
+        const genHour = document.getElementById("hour");
+        const vasta = document.getElementById("vasta");
+        const scoreValue = document.getElementById("scoreValue");
+        const msg = document.getElementById("msg");
+        const hidden = document.getElementById("hidden");
+        let hourInput = 0;
+
+
+        let hourValue = 0;
+        let score = 0;
 
         slider1.addEventListener("input", (event) => {
             const angle = parseFloat(event.target.value);
@@ -82,16 +107,35 @@
             if (hour <= 12) {
                 console.log(hour)
                 slider1value.innerText = hour;
+                hourInput = hour
             }
         });
         window.addEventListener('load', (event) => {
             const randomHour = Math.floor(Math.random() * 12) + 1;
-            console.log(randomHour);
+            genHour.innerText = randomHour;
+            hourValue = randomHour;
         });
 
-        function randomHour() {
-            const randomHour = Math.floor(Math.random() * 12) + 1;
-        }
+        vasta.addEventListener("click", (e) => {
+            console.log(hour.innerText);
+            console.log(typeof hourValue);
+            if (hourInput === hourValue) {
+                const randomHour = Math.floor(Math.random() * 12) + 1;
+                genHour.innerText = randomHour;
+                hourValue = randomHour;
+                score++;
+                scoreValue.innerText = score;
+            } else {
+                msg.innerText = 'Vale, proovi uuesti.';
+                msg.style.color = 'red'
+            }
+             if (score == 5) {
+                slider2value.classList.remove("hidden");
+                slider1.classList.remove("hidden");
+                hidden.classList.remove("hidden");
+            }
+        });
+
 
     </script>
 </body>
