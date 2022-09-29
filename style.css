@@ -1,0 +1,40 @@
+body {
+    background-color: #c1f5e6;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+    color: #333;
+  }
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 100px;
+}
+
+.time-container {
+    border: 2px solid black;
+    font-size: 100px;
+    width: 320px;
+}
+
+.time {
+}
+
+.container {
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-container {
+    font-size: 20px;
+}
+
+.hidden {
+    visibility: hidden;
+}
