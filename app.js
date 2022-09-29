@@ -78,9 +78,11 @@ vasta.addEventListener("click", (e) => {
         hourValue = randomHour;
         score++;
         scoreValue.innerText = score;
+        msg.innerText = 'Õige, hästi tehtud.';
+        msg.style.color = '#1ec700';
     } else {
         msg.innerText = 'Vale, proovi uuesti.';
-        msg.style.color = 'red'
+        msg.style.color = 'red';
     }
      if (score == 5) {
         slider2value.classList.remove("hidden");
