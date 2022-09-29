@@ -8,13 +8,13 @@ FIGMA LINK: https://www.figma.com/file/8j9yzqcE4gzwdoQX9mvZtB/kellag%C3%A4ng?nod
 
 **TA-21**
 
-Eerik Poopuu
+Eerik Poopuu,
 Riivo Matt
 
 **TA - 22**
 
-Liis Alber-Jaansalu
-Siim Pildre
+Liis Alber-Jaansalu,
+Siim Pildre,
 Mari-Liis Sink
 
 **TAK - 20**
@@ -61,7 +61,7 @@ Teisel päeval tegmime ära wireframe.
 Esitlus.
 
 **Kasutatud allikad**
-Kristjan Jansen 
+Kristjan Jansen,
 Google
 
 -----------
@@ -74,17 +74,17 @@ Google
 - 
 
 2. Üks pehme oskus, mida õppisin ja endas arendasin.
+3. Meeskonnatöö
 - 
-
-3. Üks tehniline oskus, mida õppisin ja endas arendasin.
+3. Üks tehniline oskus, mida õppisin ja endas arendasin. figma, git, vsc
 - 
 
 **Riivo Matt**
 
-1. Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides
+1. Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides. 
 - 
 
-2. Üks pehme oskus, mida õppisin ja endas arendasin.
+2. Üks pehme oskus, mida õppisin ja endas arendasin. 
 - 
 
 3. Üks tehniline oskus, mida õppisin ja endas arendasin.
