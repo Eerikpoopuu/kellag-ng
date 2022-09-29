@@ -32,10 +32,8 @@ const genHour = document.getElementById("hour");
 const vasta = document.getElementById("vasta");
 const scoreValue = document.getElementById("scoreValue");
 const msg = document.getElementById("msg");
-const hidden = document.getElementById("hidden");
+const sliderBox = document.getElementById("sliderBox");
 let hourInput = 0;
-
-
 let hourValue = 0;
 let score = 0;
 
@@ -85,8 +83,7 @@ vasta.addEventListener("click", (e) => {
         msg.style.color = 'red';
     }
      if (score == 5) {
-        slider2value.classList.remove("hidden");
-        slider1.classList.remove("hidden");
-        hidden.classList.remove("hidden");
+        line1.classList.remove("hidden");
+        sliderBox.classList.remove("hidden");
     }
 });

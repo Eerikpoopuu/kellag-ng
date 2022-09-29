@@ -18,7 +18,7 @@
                     <g transform="translate(200,200)" id="g">
                         <circle r="100" stroke="#000000" stroke-width="3" fill="none" />
                         <circle r="5" stroke="#000" stroke-width="3" fill="#000" />
-                        <line id="line1" x2="0" y2="90" stroke="#e3b922" stroke-width="5" />
+                        <line class="hidden" id="line1" x2="0" y2="90" stroke="#e3b922" stroke-width="5" />
                         <line id="line2" x2="0" y2="70" stroke="#f2c216" stroke-width="7" />
                     </g>
                 </svg>
@@ -29,7 +29,7 @@
                     <input id="slider2" type="range" max="360" step="any" />
                     <div id="slider1value">00</div>
                 </div>
-                <div class="slider-box">
+                <div class="slider-box hidden" id="sliderBox">
                     <span>Minut</span>
                     <input id="slider1" type="range" max="360" step="any" />
                     <div id="slider2value">00</div>
@@ -50,7 +50,5 @@
         </div>
     </main>
     <script src="app.js"></script>
-
 </body>
-
 </html>
