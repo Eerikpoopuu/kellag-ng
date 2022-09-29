@@ -93,13 +93,13 @@ Google
 **Liis Alber-Jaansalu**
 
 1. Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides
-- 
+- Koostöö ja tööjaotuse oskus järgmiste projektide tarbeks
 
 2. Üks pehme oskus, mida õppisin ja endas arendasin.
-- 
+- Tiimitöö
 
 3. Üks tehniline oskus, mida õppisin ja endas arendasin.
--  
+-  Figma
 
 **Siim Pildre**
 
