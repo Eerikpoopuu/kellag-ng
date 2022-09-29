@@ -7,12 +7,15 @@ body {
     font-family: sans-serif;
     color: #333;
   }
-
+ 
 main {
     display: flex;
     flex-direction: column;
     margin: 0px 100px;
+    width: 414px;
+    height: 100%;
 }
+
 
 .time-container {
     border: 2px solid black;
@@ -28,6 +31,7 @@ main {
 
 .container1 {
     flex-direction: column;
+    width: 414px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -37,6 +41,7 @@ main {
 
 .container2 {
     flex-direction: column;
+    width: 414px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -49,6 +54,44 @@ main {
 
 .hidden {
     visibility: hidden;
+}
+
+.tund {
+    width: 100%;
+}
+
+.tund {
+    -webkit-appearance: none;
+    width: 300px;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.tund:hover {
+    opacity: 1;
+}
+
+.tund::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+.tund::-moz-range-thumb {
+    width: 25px;
+    eight: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
 }
 
 .button {
@@ -64,9 +107,9 @@ main {
     cursor: pointer;
     font-size: 40px;
     transition-duration: 0.4s;
-
   }
   
-  .button:hover {
-    background-color: #0fa514; /* Green */
+.button:hover {
+    background-color: #78f37c; /* Green */
     color: rgb(0, 0, 0);
+
