@@ -17,8 +17,8 @@
     <h1>Demo</h1>
     <input id="slider1" type="range" max="360" step="any" />
     <div id="slider1value">aaa</div>
-    <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-      <g transform="translate(200,200)">
+    <svg id="svg" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+      <g transform="translate(200,200)" id="g">
         <circle r="100" stroke="black" stroke-width="5" fill="none" />
         <line id="line" x2="0" y2="100" stroke="black" stroke-width="5" />
       </g>
@@ -30,11 +30,23 @@
           y: Math.sin((angle - 90) * (Math.PI / 180)) * radius,
         };
       }
-
       const slider1 = document.getElementById("slider1");
       const slider1value = document.getElementById("slider1value");
       const line = document.getElementById("line");
+      const g = document.getElementById("g");
 
+      for (let i = 0; i < 12 + 1; i++) {
+        const star = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "text"
+        );
+        star.setAttribute("x", pol2car(i * (360 / 12), 120).x);
+        star.setAttribute("y", pol2car(i * (360 / 12), 120).y);
+        star.setAttribute("text-anchor", "middle");
+        star.setAttribute("alignment-baseline", "central");
+        star.innerHTML = i;
+        g.appendChild(star);
+      }
       slider1.addEventListener("input", (event) => {
         const angle = parseFloat(event.target.value);
         const point = pol2car(angle, 100);
