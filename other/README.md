@@ -1,6 +1,6 @@
 # kellag-ng--Kella õppimine
 ![image](https://github.com/Eerikpoopuu/kellagang/blob/main/Kella%20%C3%B5ppe%20idee%20tahvel.jpg?raw=true)
- 
+
 FIGMA LINK: https://www.figma.com/file/8j9yzqcE4gzwdoQX9mvZtB/kellag%C3%A4ng?node-id=0%3A1
 
 
@@ -21,13 +21,13 @@ Mari-Liis Sink
 
 Erik Leemet
 
-**Projekti nimi** 
+**Projekti nimi**
 
-Kella õppimis web/äpp 
+Kella õppimis web/äpp
 
 **Projekti eesmärk**
 
-Luua hariduslik rakendus või mäng kella õppimiseks. Luua lastele lihtsaim viis analoog- ja digitaalkella õppimiseks 12h ja 24h. 
+Luua hariduslik rakendus või mäng kella õppimiseks. Luua lastele lihtsaim viis analoog- ja digitaalkella õppimiseks 12h ja 24h.
 
 **Kommunikatsioon**
 
@@ -41,9 +41,9 @@ Meeskonnaga tutvumine.
 
 Suhtluskanalite loomine.
 
-Esimesel päeval me planeerisime ajakava ja panime paika vajalikud funktsioonid. 
+Esimesel päeval me planeerisime ajakava ja panime paika vajalikud funktsioonid.
 
-Arendasime ideid. 
+Arendasime ideid.
 
 
 Teisel päeval tegmime ära wireframe.
@@ -61,7 +61,7 @@ Teisel päeval tegmime ära wireframe.
 Esitlus.
 
 **Kasutatud allikad**
-Kristjan Jansen 
+Kristjan Jansen
 Google
 
 -----------
@@ -71,53 +71,53 @@ Google
 **Eerik Poopuu**
 
 1. Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides
-- 
+-
 
 2. Üks pehme oskus, mida õppisin ja endas arendasin.
-- 
+-
 
 3. Üks tehniline oskus, mida õppisin ja endas arendasin.
-- 
+-
 
 **Riivo Matt**
 
 1. Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides
-- 
+-
 
 2. Üks pehme oskus, mida õppisin ja endas arendasin.
-- 
+-
 
 3. Üks tehniline oskus, mida õppisin ja endas arendasin.
-- 
+-
 
 **Liis Alber-Jaansalu**
 
 1. Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides
-- 
+-
 
 2. Üks pehme oskus, mida õppisin ja endas arendasin.
-- 
+-
 
 3. Üks tehniline oskus, mida õppisin ja endas arendasin.
--  
+-
 
 **Siim Pildre**
 
 1. Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides
-- 
+-
 
 2. Üks pehme oskus, mida õppisin ja endas arendasin.
-- 
+-
 
 3. Üks tehniline oskus, mida õppisin ja endas arendasin
 
 **Mari-Liis Sink**
 
 1. Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides
-- 
+-
 
 2. Üks pehme oskus, mida õppisin ja endas arendasin.
-- 
+-
 
 3. Üks tehniline oskus, mida õppisin ja endas arendasin
 
@@ -125,11 +125,9 @@ Google
 **Erik Leemet**
 
 1. Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides
-- 
+-
 
 2. Üks pehme oskus, mida õppisin ja endas arendasin.
-- 
+-
 
 3. Üks tehniline oskus, mida õppisin ja endas arendasin
-
-
