@@ -82,13 +82,13 @@ Google
 **Riivo Matt**
 
 1. Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides. 
-- 
+- Meeskonnatöö
 
 2. Üks pehme oskus, mida õppisin ja endas arendasin. 
-- 
+- Meeskonnatöö
 
 3. Üks tehniline oskus, mida õppisin ja endas arendasin.
-- 
+-  Meeskonnatöö tehniline osa
 
 **Liis Alber-Jaansalu**
 
