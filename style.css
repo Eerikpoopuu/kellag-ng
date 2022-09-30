@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+
+    font-size: 20px;
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+
+    width: 40%;
+    height: 100%;
+}
+/* svg css */
+.svg-container {
+    margin: auto;
+}
+
+/* kella numbrid */
+.star {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+/* sliders */
+.slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 1.8rem;
+    gap: 20px;
+}
+
+.slider-box {
+    border-top: 2px solid #a3a3a3;
+    padding: 10px 20px;
+}
+
+#slider1, #slider2 {
+    width: 100%;
+}
+
+/* score */
+.score-container {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 2px solid #a3a3a3;
+}
+
+.score-container > span {
+    font-size: 2rem;
+}
+
+#scoreValue {
+    color: #1ec700;
+}
+
+/* random time */
+.time-container {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    font-size: 6rem;
+    margin: 30% auto 60px;
+
+
+    border-radius: 25px;
+    border: 5px solid #3a3b3a;
+
+    background-color: black;
+    color: red;
+    box-shadow: 0px 0px 15px #000;
+}
+
+.time-wrapper {
+    display: block;
+    padding: 10px;
+}
+
+.btn {
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #0a5dc2;
+    margin: 0px auto;
+    width: 200px;
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+.btn:hover {
+    background: none;
+    border: 2px solid blue;
+    box-shadow: 5px 10px #0a5dc2;
+    color: #000;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+/* other */
+#msg {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+h1 {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.score-container {
+    font-size: 20px;
+}
+
+.hidden {
+    visibility: hidden;
+}
