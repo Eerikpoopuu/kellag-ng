@@ -1,0 +1,159 @@
+body {
+    background-color: #c1f5e6;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+    color: #333;
+  }
+ 
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px;
+    width: 414px;
+    height: 100%;
+}
+
+
+.time-container {
+    border: 2px solid black;
+    background-color: ghostwhite;
+    border-radius: 8px;
+    font-size: 100px;
+    width: 320px;
+    text-align: center;
+     
+}
+.kellataust {
+    display: flex;
+    padding-bottom: 20px;
+}   
+
+.time {
+}
+
+.container1 {
+    flex-direction: column;
+    width: 414px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container2 {
+    flex-direction: column;
+    width: 414px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.score-container {
+    font-size: 20px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.tund {
+    width: 100%;
+}
+
+.tund {
+    -webkit-appearance: none;
+    width: 300px;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.tund:hover {
+    opacity: 1;
+}
+
+.tund::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+.tund::-moz-range-thumb {
+    width: 25px;
+    eight: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+
+#slider1 {
+    width: 100%;
+}
+
+#slider1 {
+    -webkit-appearance: none;
+    width: 300px;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#slider1:hover {
+    opacity: 1;
+}
+
+#slider1::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+#slider1::-moz-range-thumb {
+    width: 25px;
+    eight: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: black;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 40px;
+    transition-duration: 0.4s;
+  }
+  
+.button:hover {
+    background-color: #78f37c; /* Green */
+    color: rgb(0, 0, 0);
+
