@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylemobiil.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        
+        <div class="container1">
+        <h1>ÕPI JA MÄNGI</h1>
+        <div class="kellataust"><svg  width="414" height="300">
+            <g transform="translate(200,150)" id="g">
+                <circle r="100" stroke="black" stroke-width="5" fill="none" />
+                <line class="hidden" id="line1" x2="0" y2="100" stroke="black" stroke-width="5" />
+                <line  id="line2" x2="0" y2="70" stroke="red" stroke-width="7" /></g>
+        </svg></div>
+        <span>LIIGUTA TUNNI SEIERIT</span>
+
+        <input class="tund" id="slider2" type="range" max="360" step="any"/>
+        <span class="hidden" id="hidden">LIIGUTA MINUTI SEIERIT</span>
+        <input class="hidden" id="slider1" type="range" max="360" step="any" />
+        <div id="slider1value">00</div>
+
+        <div class="hidden" id="slider2value">00</div>
+        </div>
+        <div class="container2">
+            <div class="score-container"><span id="scoreValue">0</span><span>/5</span></div>
+            <div class="time-container">
+                <span id="hour" class="time">00</span>
+                <span>:</span>
+                <span id="min" class="time">00</span>
+            </div>
+            <button class="button" id="vasta">VASTA</button>
+            <div id="msg"></div>
+        </div>
+    </main>
+    <script>
+        const line = document.getElementById("line");
+        const g = document.getElementById("g");
+
+        for (let i = 1; i < 12 + 1; i++) {
+            const star = document.createElementNS(
+                "http://www.w3.org/2000/svg",
+                "text"
+            );
+            star.setAttribute("x", pol2car(i * (360 / 12), 120).x);
+            star.setAttribute("y", pol2car(i * (360 / 12), 120).y);
+            star.setAttribute("text-anchor", "middle");
+            star.setAttribute("alignment-baseline", "central");
+            star.innerHTML = i;
+            g.appendChild(star);
+        }
+
+        function pol2car(angle, radius) {
+            return {
+                x: Math.cos((angle - 90) * (Math.PI / 180)) * radius,
+                y: Math.sin((angle - 90) * (Math.PI / 180)) * radius,
+            };
+        }
+
+
+        function angle(h) {
+            return
+            h * (360 / 12);
+        }
+
+        const slider1 = document.getElementById("slider1");
+        const slider2 = document.getElementById("slider2");
+        const slider1value = document.getElementById("slider1value");
+        const slider2value = document.getElementById("slider2value");
+        const line1 = document.getElementById("line1");
+        const line2 = document.getElementById("line2");
+        const genHour = document.getElementById("hour");
+        const vasta = document.getElementById("vasta");
+        const scoreValue = document.getElementById("scoreValue");
+        const msg = document.getElementById("msg");
+        const hidden = document.getElementById("hidden");
+        let hourInput = 0;
+
+
+        let hourValue = 0;
+        let score = 0;
+
+        slider1.addEventListener("input", (event) => {
+            const angle = parseFloat(event.target.value);
+            const point = pol2car(angle, 100);
+            line1.setAttribute("x2", point.x);
+            line1.setAttribute("y2", point.y);
+            const min = Math.floor(angle / 6);
+            if (min <= 60) {
+                console.log(min)
+                slider2value.innerText = min;
+            }
+        });
+
+        slider2.addEventListener("input", (event) => {
+            const angle = parseFloat(event.target.value);
+            const point = pol2car(angle, 70);
+            line2.setAttribute("x2", point.x);
+            line2.setAttribute("y2", point.y);
+            const hour = Math.floor(angle / 30);
+            if (hour <= 12) {
+                console.log(hour)
+                slider1value.innerText = hour;
+                hourInput = hour
+            }
+        });
+        window.addEventListener('load', (event) => {
+            const randomHour = Math.floor(Math.random() * 12) + 1;
+            genHour.innerText = randomHour;
+            hourValue = randomHour;
+        });
+
+        vasta.addEventListener("click", (e) => {
+            console.log(hour.innerText);
+            console.log(typeof hourValue);
+            if (hourInput === hourValue) {
+                const randomHour = Math.floor(Math.random() * 12) + 1;
+                genHour.innerText = randomHour;
+                hourValue = randomHour;
+                score++;
+                scoreValue.innerText = score;
+                msg.innerText = 'ÕIGE';
+                msg.style.color = 'green'
+            } else {
+                msg.innerText = 'PROOVI UUESTI';
+                msg.style.color = 'red'
+            }
+             if (score == 5) {
+                slider2value.classList.remove("hidden");
+                slider1.classList.remove("hidden");
+                hidden.classList.remove("hidden");
+                line1.classList.remove("hidden")
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>
