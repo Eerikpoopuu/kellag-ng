@@ -44,19 +44,20 @@ Suhtluskanalite loomine.
 Esimesel päeval me planeerisime ajakava ja panime paika vajalikud funktsioonid. 
 
 Arendasime ideid. 
-
-
-Teisel päeval tegmime ära wireframe.
-
 ![image](https://github.com/Eerikpoopuu/kellagang/blob/main/Kella%20funktsioonide%20loomine.jpg)
 
 **2. päev**
 
+Teisel päeval tegmime ära wireframe ja koodi kirjutamine. 
+
+![image](https://github.com/Eerikpoopuu/kellagang/blob/main/Wireframe.jpg?raw=true)
+
+Kujundasime visuaali Figmas
 
 
 **3. päev**
 
-
+Ülesannete lõpetamine, viimistlemine. 
 
 Esitlus.
 
@@ -76,19 +77,19 @@ Google
 2. Üks pehme oskus, mida õppisin ja endas arendasin.
 3. Meeskonnatöö
 - 
-3. Üks tehniline oskus, mida õppisin ja endas arendasin. figma, git, vsc
+3. Üks tehniline oskus, mida õppisin ja endas arendasin. 
 - 
 
 **Riivo Matt**
 
 1. Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides. 
-- 
+- Meeskonnatöö
 
 2. Üks pehme oskus, mida õppisin ja endas arendasin. 
-- 
+- Meeskonnatöö
 
 3. Üks tehniline oskus, mida õppisin ja endas arendasin.
-- 
+-  figma, git, vsc
 
 **Liis Alber-Jaansalu**
 
