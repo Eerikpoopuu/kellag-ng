@@ -105,12 +105,13 @@ Google
 **Siim Pildre**
 
 1. Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides
-- 
+- Kopeerimine ühest branchist doc teise
 
 2. Üks pehme oskus, mida õppisin ja endas arendasin.
-- 
+- Meeskonna suhtlus projektitöö raames
 
 3. Üks tehniline oskus, mida õppisin ja endas arendasin
+- Õppisin kasutama css-i, 
 
 **Mari-Liis Sink**
 
