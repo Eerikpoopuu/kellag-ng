@@ -76,7 +76,7 @@ Google
 2. Üks pehme oskus, mida õppisin ja endas arendasin.
 3. Meeskonnatöö
 - 
-3. Üks tehniline oskus, mida õppisin ja endas arendasin. figma, git, vsc
+3. Üks tehniline oskus, mida õppisin ja endas arendasin. 
 - 
 
 **Riivo Matt**
@@ -88,7 +88,7 @@ Google
 - Meeskonnatöö
 
 3. Üks tehniline oskus, mida õppisin ja endas arendasin.
--  Meeskonnatöö tehniline osa
+-  figma, git, vsc
 
 **Liis Alber-Jaansalu**
 
