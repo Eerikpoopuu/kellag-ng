@@ -44,14 +44,13 @@ Suhtluskanalite loomine.
 Esimesel päeval me planeerisime ajakava ja panime paika vajalikud funktsioonid. 
 
 Arendasime ideid. 
+![image](https://github.com/Eerikpoopuu/kellagang/blob/main/Kella%20funktsioonide%20loomine.jpg)
 
 **2. päev**
 
 Teisel päeval tegmime ära wireframe ja koodi kirjutamine. 
 
 ![image](https://github.com/Eerikpoopuu/kellagang/blob/main/Wireframe.jpg?raw=true)
-
-![image](https://github.com/Eerikpoopuu/kellagang/blob/main/Kella%20funktsioonide%20loomine.jpg)
 
 Kujundasime visuaali Figmas
 
