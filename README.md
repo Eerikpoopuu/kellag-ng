@@ -127,11 +127,11 @@ Google
 **Erik Leemet**
 
 1. Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides
-- 
+- SVG kasutamine.
 
 2. Üks pehme oskus, mida õppisin ja endas arendasin.
-- 
+- suhtlemine
 
 3. Üks tehniline oskus, mida õppisin ja endas arendasin
-
+-  HTML ja CSS
 
